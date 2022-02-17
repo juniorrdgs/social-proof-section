@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+
+/* Colors */
+
+/* Primary */
+
+--veryDarkMagenta: hsl(300, 43%, 22%);
+--softPink: hsl(333, 80%, 67%);
+
+/* Neutral */
+
+--darkGrayishMagenta: hsl(303, 10%, 53%);
+--lightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan';
+}
+
+body {
+    min-width: 100vw;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    background-color: var(--White);
+}
+
+header  {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header .left-header {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.left-header .lh-title {
+    color: var(--veryDarkMagenta);
+    font-weight: 700;
+}
+
+header .right-header {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.right-header .rate {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    background-color: var(--lightGrayishMagenta);
+}
+
+.right-header .star {
+    margin-right: 5px;
+}
+
+.right-header .rate-mid {
+    margin-left: 10px;
+}
+
+.right-header .rate-btm {
+    margin-left: 20px;
+}
+
+.cards-section {
+    display: flex;
+}
+
+.cards-section .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--veryDarkMagenta);
+    padding: 25px;
+}
+
+.card .client {
+    display: flex;
+    align-items: center;
+}
+
+.card .client .client-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .client .avatar {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
