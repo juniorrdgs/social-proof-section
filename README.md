@@ -16,7 +16,7 @@ Esta é uma resolução para o [Social Proof Section component challenge on Fron
 Projeto desenvolvido para treino e auxílio no desenvolvimento das habilidades com HTML e CSS.
 
 ### Screenshot
-![](.assets/images/screenshot.png)
+![](assets/images/screenshot.png)
 
 ### Links
 - Endereço da Solução: [Respositório em meu GitHub](https://github.com/juniorrdgs/social-proof-section)
